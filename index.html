@@ -11,7 +11,27 @@
     <ul> 
     </ul>
   </div>
-  <div>
+<div>
+<button id="myBtn">Open Modal</button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Додати нову групу</h2>
+      <form id="groupForm">
+        <div class="wibdow_left">
+          <label for="groupLogo">Лого:</label>
+          <input type="file" id="groupLogo" name="groupLogo"><br><br>
+        </div> 
+        <div class="wibdow_rigth">
+          <label for="groupName">Назва:</label>
+          <input type="text" id="groupName" name="groupName" required><br><br>         
+          <label for="groupMembers">Учасники:</label>
+          <input type="text" id="groupMembers" name="groupMembers" placeholder="Учасник1, Учасник2, Учасник3..." required><br><br>
+        </div>
+          <button type="submit">Додати</button>
+      </form>
+  </div>
+</div>
     <!-- <button class="main-btn" >Open</button>
     <form class="main-form">
       <p>a</p>
