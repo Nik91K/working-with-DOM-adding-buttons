@@ -1,0 +1,51 @@
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.images{
+  width: 180px;
+  height: 180px;
+}
+
+.bandInfo{
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: rgba(179, 179, 179, 0.534);
+  border-radius: 30px;
+  display: flex;
+
+}
+
+.bandInfo1{
+  width: 40%;
+  height: auto;
+  float: left;
+}
+
+.bandInfo2{
+  width: 60%;
+}
+
+.trackInfo{
+  margin: 0;
+}
+
+.main-form{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+button{
+  border: none;
+  background-color: white;
+  color: black;
+}
